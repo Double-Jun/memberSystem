@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+	<!-- Filter过滤器配置 用于处理网页乱码 -->
+	<filter>
+		<filter-name>EncdoingFilter</filter-name>
+		<filter-class>cn.itcast.filter.EncodingFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>EncdoingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<!-- 过滤没有登陆的访问 -->
+	<filter>
+		<filter-name>LoginFilter</filter-name>
+		<filter-class>cn.xinguan.web.filter.LoginFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>LoginFilter</filter-name>
+		<!-- 过滤jsp网页 -->
+		<url-pattern>/addmember.jsp</url-pattern>
+		<url-pattern>/cont_1.jsp</url-pattern>
+		<url-pattern>/cont_2.jsp</url-pattern>
+		<url-pattern>/cont_3.jsp</url-pattern>
+		<url-pattern>/cont_4.jsp</url-pattern>
+		<url-pattern>/detailed.jsp</url-pattern>
+		<url-pattern>/index.jsp</url-pattern>
+		<url-pattern>/modify.jsp</url-pattern>
+		<url-pattern>/pages.jsp</url-pattern>
+		<!-- 过滤Servlet -->
+		<url-pattern>/FellowsShip</url-pattern>
+		<url-pattern>/MemberManagerServlet</url-pattern>
+		<url-pattern>/MemberInfoServlet</url-pattern>
+		<url-pattern>/servlet/Export</url-pattern>
+		<url-pattern>/PhysicalServlet</url-pattern>
+	</filter-mapping>
+
+
+	<!-- Servlet配置 -->
+	<servlet>
+		<servlet-name>FellowsShipServlet</servlet-name>
+		<servlet-class>cn.xinguan.web.FellowsShipServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>MemberManagerServlet</servlet-name>
+		<servlet-class>cn.xinguan.web.MemberManagerServlet</servlet-class>
+		<init-param>
+			<param-name>savePath</param-name>
+			<param-value>uploads</param-value>
+		</init-param>
+	</servlet>
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>cn.xinguan.web.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>MemberInfoServlet</servlet-name>
+		<servlet-class>cn.xinguan.web.MemberInfoServlet</servlet-class>
+	</servlet>
+	
+	<!-- 初始化加载 -->
+	<servlet>
+		<servlet-name>InitServlet</servlet-name>
+		<servlet-class>cn.xinguan.web.InitServlet</servlet-class>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>Export</servlet-name>
+		<servlet-class>cn.xinguan.web.Export</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>PhysicalServlet</servlet-name>
+		<servlet-class>cn.xinguan.web.PhysicalServlet</servlet-class>
+		<init-param>
+			<param-name>savePath</param-name>
+			<param-value>uploads</param-value>
+		</init-param>
+	</servlet>
+
+
+	<!-- 访问路径设置 -->
+	<servlet-mapping>
+		<servlet-name>FellowsShipServlet</servlet-name>
+		<url-pattern>/FellowsShip</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MemberManagerServlet</servlet-name>
+		<url-pattern>/MemberManagerServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MemberInfoServlet</servlet-name>
+		<url-pattern>/MemberInfoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Export</servlet-name>
+		<url-pattern>/servlet/Export</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PhysicalServlet</servlet-name>
+		<url-pattern>/PhysicalServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- 默认访问页面 -->
+	<welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

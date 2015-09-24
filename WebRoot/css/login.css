@@ -1,0 +1,107 @@
+#header{
+	width:1200px;
+	height:100px;
+	margin:0 auto;
+	background:-red;
+}
+
+#content{
+	width:1200px;
+	height:500px;
+	background:-yellow;
+	margin:0 auto;
+}
+#content .left{
+	width:620px;
+	height:350px;
+	float:left;
+	margin:50px 0 0 120px;
+}
+#content .left img{
+	width:550px;
+	height:310px;
+	display:block;
+	margin:0 0 0 30px;
+	border-radius:6px;
+	box-shadow:5px 5px 20px #0B78A0;
+}
+#content .right{
+	width:400px;
+	height:280px;
+	float:right;
+	margin:50px 0 0 0;
+	border:1px solid rgba(0,0,0,0.1);
+	position:relative;
+	background:rgba(0,0,0,0.1);
+	border-radius:5px;
+	box-shadow:5px 5px 20px #0B78A0;
+}
+#content .right form .input_login{
+	width:300px;
+	height:40px;
+	margin:30px 0 0 40px;
+	border-radius:5px;
+	border:1px solid #ccc;
+	box-shadow:rgba(0, 0, 0, 0.2) 0px 4px 9px -5px inset;
+	-webkit-box-shadow:rgba(0, 0, 0, 0.2) 0px 4px 9px -5px inset;
+	-moz-box-shadow:rgba(0, 0, 0, 0.2) 0px 4px 9px -5px inset;
+	text-indent:5px;
+	display:block;
+	float:left;
+	font-family:"微软雅黑";
+	color:#666;
+	line-height:40px;
+}
+#content .right form .icon{
+	width:30px;
+	height:30px;
+	display:block;
+	position:absolute;
+}
+#content .right form .icon1{
+	left:300px;
+	top:35px;	
+}
+#content .right form .icon2{
+	left:300px;
+	top:110px;	
+}
+#content .right form .account{
+	background:
+}
+#content .right form .input_sub{
+	width:400px;
+	height:60px;
+	position:absolute;
+	top:180px;
+	line-height:60px;
+	text-align:center;
+}
+#content .right form .input_sub .type_sub{
+	width:80px;
+	height:35px;
+	border-radius:5px;
+	border:1px solid #ccc;
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#666;
+	margin-left:50px;
+	cursor:pointer;
+
+}
+#content .right form .input_sub  .sub{
+	margin-left:0px;
+}
+#content .right form .forget_pwd{
+	width:340px;
+	height:30px;
+	position:absolute;
+	top:240px;
+	text-align:right;
+}
+#content .right form .forget_pwd a{
+	font-family:"微软雅黑";
+	color:blue;
+	font-weight:bold;
+	font-size:14px;
+}

@@ -1,0 +1,47 @@
+#pages{
+	width:980px;
+	height:40px;
+	margin-top:5px;
+	margin-left:0px;
+}
+#pages table{
+	margin:0;
+}
+#pages table td{
+	text-align:center;
+	font:13px/30px 'Microsoft Yahei';
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	color:#666;
+}
+#pages table td input{
+	width:50px;
+	height:20px;
+	text-indent:2px;
+}
+#pages table td a{
+	display:block;
+}
+	
+
+#pages table td a:hover{
+	background:#99CCFF;
+	color:#000;
+}
+#pages table td.number{
+	width:30px;
+}
+#pages table td.characters{
+	width:70px;
+	height:30px;
+}
+#pages table td.other{
+	width:100px;
+}
+#pages table{
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+#pages table td.allMember{
+	width:80px;
+}

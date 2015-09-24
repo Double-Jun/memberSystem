@@ -1,0 +1,163 @@
+#all{
+	width:1200px;
+	height:auto;
+	margin:0 auto;
+	border:1px solid #CECECE;
+	font-family:'Microsoft Yahei';
+}
+#header{
+	width:1200px;
+	height:118px;
+	background:#F7F7F7 url(../images/member.png) no-repeat;
+}
+#content{
+	width:1200px;
+	height:500px;
+
+}
+#content .content{
+	width:400px;
+	height:400px;
+	float:left;
+	border-bottom:1px solid #ccc;
+}
+#content ul{
+	margin-top:10px;
+}
+#content ul li{
+	width:400px;
+	height:40px;
+	line-height:40px;
+	text-indent:10px;
+	margin-bottom:10px;
+	position:relative;
+}
+#content ul li input{
+	font-size:14px;
+	color:#777;	
+	font-family:'Microsoft Yahei';
+}
+#content ul li select{
+	width:100px;
+	height:30px;
+	border-radius:5px;
+	border:1px solid #ccc;
+}
+#content ul li span{
+	width:100px;
+	text-align:right;
+	padding-right:10px;
+	float:left;
+	font-size:14px;
+	color:#333;
+}
+#content .content_left ul li label{
+	font-size:14px;
+	color:#666;
+}
+#content ul li .input1{
+	width:200px;
+	height:30px;
+	text-indent:5px;
+	border-radius:5px;
+	border:1px solid #ccc;
+
+}
+#content ul li select{
+	color:#666;
+	font-family:'Microsoft Yahei';
+}
+#content ul li span.star{
+	display:block;
+	height:40px;
+	width:40px;
+	font-size:20px;
+	color:red;
+	background:-blue;
+	text-align:left;
+	position:absolute;
+	left:330px;
+	top:0px;
+}#content ul li input.name_warning{
+	width:100px;
+	height:30px;
+	color:red;
+	position:absolute;
+	top:3px;
+	background:#fff;
+	z-index:555;
+	border-radius:20px;
+	border:1px solid red;
+	text-align:center;
+	display:none;
+}
+#content .save{
+	width:1200px;
+	height:100px;
+	clear:both;
+}
+#content .save div{
+	width:164px;
+	height:30px;
+	float:right;
+	margin:30px 60px 0 0 ;
+}
+#content .save div span{
+	display:block;
+	width:80px;
+	height:30px;
+	border:1px solid #ccc;
+	float:left;
+	text-align:center;
+	background:#eee;
+	cursor:pointer;
+}
+#content .save div span a{
+	color:#666;
+	font:16px/30px 'Microsoft Yahei';
+	display:block;
+}
+#content .save div span  input{
+	width:80px;
+	height:30px;
+	border:none;
+	corlor:#666;
+	font-family:'Microsoft Yahei';
+}
+#content .save div span  input:hover{
+	background:#ccc;
+	cursor:pointer;
+}
+#content .save div .abolish{
+	border-radius:6px;
+}
+#content .save div .abolish:hover{
+	background:#ccc;
+	color:#000;	
+}
+#footer{
+	width:1200px;
+	height:30px;
+	background:#3388C8;
+	text-align:center;
+	line-height:30px;
+	color:#fff;
+}
+#detailed_photo{
+	width:150px;
+	height:150px;
+	background:#ccc;
+	margin-left:190px;
+	border-radius:5px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,147 @@
+#cont_2{
+    width:998px;
+    height:478px;
+	position:relative;
+}
+#sub{
+	width:900px;
+	height:50px;
+	float:left;
+	line-height:50px;
+}
+#sub span{
+	display:block;
+	float:left;
+	width:60px;
+	height:32px;
+	border:1px solid #ccc;
+	border-right:none;
+	border-radius:5px 0 0 5px;
+	text-align:center;
+	font:14px/31px 'Microsoft Yahei';
+	margin-top:10px;
+	margin-left:450px;
+	color:#000;
+}
+#sub .text{
+	height:32px;
+	font:13px/32px 'Microsoft Yahei';
+	color:#000;
+	float:left;	
+	margin-top:10px;
+}
+#sub .text input{
+	width:300px;
+	height:30px;
+	text-indent:5px;
+	color:#000;
+	font-family:'Microsoft Yahei';
+
+}
+#sub .sub{
+	width:60px;
+	height:31px;
+	float:left;
+	margin-top:10px;
+	font:13px/31px 'Microsoft Yahei';
+}
+#sub .sub input{
+	width:60px;
+	height:34px;
+	border:1px solid #ccc;
+	border-left:none;
+	background:#eee url(../images/biaoji.png) no-repeat 17px -57px;
+	border-radius:0 5px 5px 0;
+	cursor:pointer;
+}
+#sub .sub input:hover{
+	background:#ccc url(../images/biaoji.png) no-repeat 17px -57px;
+}
+hr{
+	clear:both;
+	border:0;
+	background:#ccc;
+	height:1px;
+	margin:0;	
+}
+#cont_2 table{
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	margin:0 auto;
+	margin-top:5px;
+}
+#cont_2 table tr th,#cont_2 table tr td{
+	width:90px;
+	height:30px;
+	border-left:1px solid #ccc;
+	border-top:1px solid #ccc;
+	text-align:center;
+	font:14px/30px 'Microsoft Yahei';
+	color:#000;
+	overflow:hidden;
+	white-space:nowrap;
+}
+
+#cont_2 table tr.tr_first th{
+	font-size:17px;
+}
+#cont_2 table tr td a:visited{
+	color:blue;
+}
+#cont_2 table tr .gender_marry{
+	width:40px;
+}
+#cont_2 table tr .operation{
+	width:50px;
+}
+
+#cont_2 table .dept{
+	width:240px;
+}
+#cont_2 table .area{
+	width:230px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+#cont_2 div.add{
+	width:170px;
+	height:40px;
+	text-align:center;
+	line-height:35px;
+	position:absolute;
+	top:410px;
+	left:0px;
+}
+#cont_2 .add input{
+	width:70px;
+	height:30px;
+	display:block;
+	float:left;
+	margin-top:4px;
+	background:#73B5F0;
+	border:1px solid #ccc;
+	color:#000;
+}
+#cont_2 .add input:hover{
+	background:#1E7ABB;
+	cursor:pointer;
+	color:#fff;
+}
+#cont_2 .add input.input1{
+	margin-left:20px;
+	border-right:none;
+	border-radius:5px 0 0 5px;
+}
+#cont_2 .add input.input2{
+	border-radius:0 5px 5px 0;
+}
+
+#cont_2 .pages{
+	width:820px;
+	position:absolute;
+	top:410px;
+	left:180px;
+}
+
+
+

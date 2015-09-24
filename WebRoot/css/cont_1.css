@@ -1,0 +1,138 @@
+#cont_1{
+    width:998px;
+    height:478px;
+}
+#select{
+	width:300px;
+	height:50px;
+	margin-left:50px;
+	float:left;
+
+}
+
+#sub{
+	width:600px;
+	height:50px;
+	float:left;
+	line-height:50px;
+}
+#sub .text{
+	float:left;
+}
+#sub .text input{
+	width:400px;
+	height:30px;
+	border-radius:5px 0 0 5px;
+	border:1px solid #ccc;
+	text-indent:5px;
+	color:#666;
+}
+#sub .sub input{
+	width:60px;
+	height:32px;
+	margin-top:8px;
+	border:1px solid #ccc;
+	border-radius:0 5px 5px 0;
+	background:#eee url(../images/biaoji.png) no-repeat 17px -57px;
+}
+#sub .sub{
+	float:left;
+}
+#sub .sub input{
+	cursor:pointer;
+}
+#sub .sub input:hover{
+	background:#ccc url(../images/biaoji.png) no-repeat 17px -57px;
+}
+#select span{
+	display:block;
+	float:left;
+	width:80px;
+	height:50px;
+	text-align:center;
+	font:14px/50px 'Microsoft Yahei';
+	color:#000;
+	margin-left:40px;
+}
+#select .select_son{
+	width:100px;
+	height:30px;
+	float:left;
+	margin:10px 0 0 20px ;
+	color:#000;
+	font:13px 'Microsoft Yahei';
+	border-radius:5px;
+	border:1px solid #ccc;
+}
+#select .select_son option{
+	color:#000;
+	font:13px 'Microsoft Yahei';
+}
+hr{
+	clear:both;
+	border:0;
+	background:#ccc;
+	height:1px;
+	margin:0;
+	
+}
+#info{
+	width:980px;
+	height:420px;
+	margin-top:5px;
+	position:absolute;
+	left:10px;
+}
+#info table{
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+#info table.first td,#info table th{
+	width:120px;
+	height:30px;
+	text-align:center;
+	font:13px/30px 'Microsoft Yahei';
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	color:#000;
+	overflow:hidden;
+	white-space:nowrap;
+}
+#info table.first td a:visited{
+	color:blue;
+}
+#info table.first th{
+	font-size:17px;
+	color:#111;
+}
+#info table.first .name{
+	width:80px;
+}
+#info table.first .gender_marry_operation{
+	width:40px;
+}
+#info table .id_email{
+	width:165px;
+}
+#info table .dept{
+	width:280px;
+}
+#info .pages{
+	width:840px;
+	height:40px;
+	float:right;
+	position:absolute;
+	top:345px;
+	left:80px;
+	color:blue;
+	margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
